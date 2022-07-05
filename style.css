@@ -30,8 +30,10 @@ p{
     background-position: middle;
     margin-bottom: 120PX;
 }
-.white-pp{
-    color: #DADADA;
+
+#color-change{
+    color: white;
+     font-weight: 400;
 }
 
 .Donate-Today{
