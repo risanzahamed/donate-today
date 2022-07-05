@@ -2,6 +2,7 @@ body{
     font-family: 'Inter', sans-serif;
     margin: 0%;
     margin-top: 0%;
+    padding: 0%;
 }
 
 #bold-text{
@@ -19,23 +20,22 @@ p{
     color: white;
 }
 
-#Background-image {
-background-image: url(images/hero-image2.png);
-background-color: rgba(0, 0, 0, 0.055);
-background-repeat: no-repeat;
-background-size: cover;
-height: 900px;
+.background-photo{
+    background-image: url(images/hero-image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-top: 200px;
+    color: #FAFAFA;
+    background-position: middle;
+    margin-bottom: 120PX;
 }
-
-#hero-div{
-     
-    vertical-align: middle
+.white-pp{
+    color: #DADADA;
 }
 
 .Donate-Today{
-
     text-align: center;
-    margin-top: 130px;
     font-size: 45px;
     font-weight: bold
 }
@@ -90,4 +90,44 @@ button{
     font-weight: 500;
     font-family: sans-serif;
     border-radius: 5px;
+    margin-bottom: 120px;
+}
+
+.Space{
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.Left-align{
+    text-align: left ;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    width: 360px;
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    background-color: #4f9da644;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.blue{
+    background-color: #4f9da623;
+}
+
+.pink{
+
+    background-color: #ff595923;
+
+}
+
+.yellow{
+
+    background-color: #fff4d685;
+}
+
+.plan{
+    margin-top: 130px;
 }
