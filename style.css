@@ -1,0 +1,93 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0%;
+    margin-top: 0%;
+}
+
+#bold-text{
+    width: 700px;
+    text-align: center;
+    font-size: 65px;
+    color: white;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.white-text{
+    color: white;
+}
+
+#Background-image {
+background-image: url(images/hero-image2.png);
+background-color: rgba(0, 0, 0, 0.055);
+background-repeat: no-repeat;
+background-size: cover;
+height: 900px;
+}
+
+#hero-div{
+     
+    vertical-align: middle
+}
+
+.Donate-Today{
+
+    text-align: center;
+    margin-top: 130px;
+    font-size: 45px;
+    font-weight: bold
+}
+
+.Donate-Today p {
+    color: #707070; 
+    font-weight: 400;
+}
+
+.deposit{
+
+    display: inline-flex
+}
+
+.deposit-one{
+    padding: 20px 40px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #FAFAFA;
+    color: #707070;
+    font-size: 30px;
+    border-radius: 6%;
+}
+
+.orange-color{
+    color: #FF5959;
+}
+
+.bg-orange{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+
+}
+
+.input-from{
+
+    border-bottom: 2px solid #DADADA;
+    width: 800px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+button{
+
+    padding: 16px 20px;
+    background-color: #FF5959;
+    color: white;
+    border: 1px solid #FF5959;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
