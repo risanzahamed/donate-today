@@ -98,12 +98,14 @@ button{
 .Space{
     padding-left: 160px;
     padding-right: 160px;
+    margin-top: 100px;
 }
 
 .Left-align{
     text-align: left ;
     color: black;
-    font-size: 24px;
+    font-size: 16px;
+    line-height: 30px;
     font-weight: 600;
     width: 360px;
     padding-left: 30px;
@@ -132,4 +134,36 @@ button{
 
 .plan{
     margin-top: 130px;
+}
+
+.half-width{
+    width: 50%;
+     
+}
+
+.half-width img{
+    width: 50%;
+    width: 110%;
+     
+}
+
+.content-left{
+    align-items: left;
+    text-align: left;
+    margin-right: 140px;
+}
+
+.content-right{
+    align-items: left;
+    text-align: left;
+
+
+}
+
+.email-Subscribe form{
+
+    display: inline-block;
+    width: 20px 30px;
+    padding: 20px 40px;
+    
 }
